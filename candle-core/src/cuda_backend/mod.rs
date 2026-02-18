@@ -17,7 +17,6 @@ mod device;
 mod error;
 mod utils;
 pub use device::{CudaDevice, DeviceId};
-pub use device::{prepare_graph_capture_staging, reset_graph_capture_staging};
 pub use error::{CudaError, WrapErr};
 pub use utils::{Map1, Map1Any, Map2, Map2Any, Map2InPlace, Map3, S};
 
